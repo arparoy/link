@@ -19,7 +19,7 @@ jobs:
           python-version: '3.x'
 
       - name: 📦 Install dependencies
-        run: pip install beautifulsoup4 requests
+        run: pip install beautifulsoup4 requests lxml
 
       - name: 🚀 Run the scraper
         run: python scrape_links.py
