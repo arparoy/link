@@ -1,0 +1,39 @@
+name: Update Links Markdown
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  
+  workflow_dispatch:      
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: pip install --upgrade pip
+
+    - name: Run script
+      run: |
+        python generate_links.py
+
+    - name: Commit and push changes
+      run: |
+        git config user.name "GitHub Actions Bot"
+        git config user.email "actions@github.com"
+
+        if [[ `git status --porcelain` ]]; then
+          git add links.md .link_hash
+          git commit -m "Update links.md with new links"
+          git push
+        else
+          echo "No changes to commit."
+        fi
