@@ -38,10 +38,10 @@
 | 34 | [Click here](https://drive.google.com/drive/folders/15f55gzRMyMuHevpuF-BB6j7N6lxFm2G9) | Google Drive |
 | 35 | [Click here](https://drive.google.com/file/d/108kVpo0yQAjqsv5BtZ5RBgP7JGsCB6VU/view?usp=drivesdk) | Google Drive |
 | 36 | [Click here](https://drive.google.com/file/d/106RqRu7G-mJcUxI99H402wNbznr6KGkk/view?usp=drivesdk) | Google Drive |
-| 37 | [Click here](https://photos.app.goo.gl/dn4NehfQfowJU3dt6) | Other |
-| 38 | [Click here](https://photos.app.goo.gl/u9wbQY6xPRHb2T2Z9) | Other |
-| 39 | [Click here](https://photos.app.goo.gl/A4ePmio4BeqxYQeZA) | Other |
-| 40 | [Click here](https://photos.app.goo.gl/tTG7QGDZY3WQ9kcq8) | Other |
+| 37 | [Click here](https://photos.app.goo.gl/dn4NehfQfowJU3dt6) | Google Photos |
+| 38 | [Click here](https://photos.app.goo.gl/u9wbQY6xPRHb2T2Z9) | Google Photos |
+| 39 | [Click here](https://photos.app.goo.gl/A4ePmio4BeqxYQeZA) | Google Photos |
+| 40 | [Click here](https://photos.app.goo.gl/tTG7QGDZY3WQ9kcq8) | Google Photos |
 | 41 | [Click here](https://storylinestorebook.blogspot.com) | Blog |
 | 42 | [Click here](https://elizaibarrastory.blogspot.com) | Blog |
 | 43 | [Click here](https://jayesummers.blogspot.com) | Blog |
@@ -59,3 +59,4 @@
 | 55 | [Click here](https://sites.google.com/view/arpa-roy/home) | Other |
 | 56 | [Click here](https://pratikshastory.blogspot.com) | Blog |
 | 57 | [Click here](https://rekhamonasarkar.blogspot.com) | Blog |
+| 58 | [Click here](https://drive.google.com/drive/folders/187pna0AxVOgMyFMXXuznk8QoP2TAaX7T) | Google Drive |
