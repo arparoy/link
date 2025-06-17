@@ -9,7 +9,7 @@ PLATFORM_PATTERNS = {
     "YouTube": r"(youtube\.com|youtu\.be)",
     "Facebook": r"facebook\.com",
     "Google Drive": r"drive\.google\.com",
-    "Google Photos": r"photos\.google\.com",
+    "Google Photos": r"photos\.google\.com|photos\.app\.goo\.gl",
     "Terabox": r"terabox\.com",
     "OneDrive": r"1drv\.ms|onedrive\.live\.com",
     "Mega": r"mega\.nz",
