@@ -10,6 +10,7 @@ PLATFORM_PATTERNS = {
     "Facebook": r"facebook\.com",
     "Google Drive": r"drive\.google\.com",
     "Google Photos": r"photos\.google\.com|photos\.app\.goo\.gl",
+    "Google Sites": r"sites\.google\.com",
     "Terabox": r"terabox\.com",
     "OneDrive": r"1drv\.ms|onedrive\.live\.com",
     "Mega": r"mega\.nz",
