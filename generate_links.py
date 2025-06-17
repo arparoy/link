@@ -21,6 +21,7 @@ PLATFORM_PATTERNS = {
     "TikTok": r"tiktok\.com",
     "Twitter": r"twitter\.com|x\.com",
     "Telegram": r"t\.me",
+    "GH Pages": r"github\.io",
 }
 
 def detect_platform(link):
