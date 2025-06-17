@@ -43,7 +43,7 @@ def convert_md_table_to_html(md_file, html_file, css_path="style.css", github_us
     <link rel="stylesheet" href="{css_path}">
 </head>
 <body>
-    <h1>🔗 Useful Links</h1>
+    <h1>Useful Links</h1>
     <input type="text" id="searchInput" placeholder="Search by platform or keyword..." onkeyup="searchTable()" />
 
     <table id="linkTable">
