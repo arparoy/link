@@ -51,4 +51,4 @@ def convert_md_table_to_html(md_file, html_file, css_path="style.css"):
     print(f"✅ HTML table written to {html_file}")
 
 if __name__ == "__main__":
-    convert_md_table_to_html("links.md", "links.html")
+    convert_md_table_to_html("links.md", "index.html")
