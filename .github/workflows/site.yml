@@ -1,0 +1,34 @@
+name: Build and Deploy Static Link Page
+
+on:
+  push:                        
+    branches: [ main ]
+  schedule:                    # Monthly schedule (1st day of each month at 00:00 UTC)
+    - cron: '0 0 1 * *'
+  workflow_dispatch:          
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Run Python Scripts
+      run: |
+        python generate_links.py
+        python generate_html.py
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: .
+        publish_branch: gh-pages
+        force_orphan: true
