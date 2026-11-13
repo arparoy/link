@@ -6,6 +6,8 @@ A modern, responsive archive of useful links with automatic platform detection.
 
 - 🌐 **View Page**: [https://arparoy.github.io/link/](https://arparoy.github.io/link/)
 - 📘 **Raw Markdown**: [links.md](./links.md)
+- https://links.arparoy.workers.dev/
+- https://links-5lf.pages.dev/
 
 ## Features
 
